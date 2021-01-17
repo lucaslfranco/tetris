@@ -1,0 +1,37 @@
+@import "./variables.scss";
+
+.piece {
+    // width: $block-size * 3 + px;
+    position: absolute;
+
+    .piece-row {
+        display: flex;
+    }
+}
+
+.block {
+    width: ($block-size -  1) + px;
+    height: ($block-size -  1) + px;
+    border: 1px solid #555;
+    background-color: #777;
+    position: relative;
+
+    &.block-1 {
+        background-color: green;
+    }
+    &.block-2 {
+        background-color: blue;
+    }
+    &.block-3 {
+        background-color: red;
+    }
+    &.block-4 {
+        background-color: yellow;
+    }
+    &.block-5 {
+        background-color: purple;
+    }
+    &.block-6 {
+        background-color: orange;
+    }
+}

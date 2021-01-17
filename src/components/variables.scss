@@ -1,0 +1,12 @@
+/* Board dimensions (in blocks) */
+$board-width: 15;
+$board-height: 20;
+
+/* Block size (in px) */
+$block-size: 20;
+
+:export {
+    blockSize: $block-size;
+    boardWidth: $board-width;
+    boardHeight: $board-height;
+}

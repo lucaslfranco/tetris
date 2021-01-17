@@ -1,0 +1,11 @@
+@import "./variables.scss";
+
+.title {
+    margin: 0;
+}
+
+.game-board {
+    width: ($board-width * 20) + px;
+    height: ($board-height * 20) + px;
+    background-color: #666;
+}
